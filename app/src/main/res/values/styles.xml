@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <style name="toastCustom1">
+        <item name="colorBackground">#43cea2</item>
+        <item name="textColor">#fff</item>
+        <item name="iconLeft">@drawable/check32</item>
+    </style>
+    <style name="toastCustom2">
+        <item name="colorBackground">#43cea2</item>
+        <item name="textColor">#fff</item>
+        <item name="iconLeft">@drawable/coffeetoast</item>
+    </style>
+
+</resources>

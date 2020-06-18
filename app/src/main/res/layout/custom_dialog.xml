@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="250dp"
+    android:background="@color/colorPrimaryDark"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtCloses"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textColor="#fff"
+        android:text="X"
+        android:textStyle="bold"
+        android:layout_gravity="end"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+        <TextView
+            android:id="@+id/dialogTitle"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="85dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:text="Custom Record"
+            android:fontFamily="@font/gil_bold"
+            android:textColor="#fff"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/focusText"
+            android:layout_width="195dp"
+            android:layout_marginLeft="75dp"
+            android:layout_height="wrap_content"
+            android:hint="..."
+            android:paddingEnd="100dp" />
+
+        <TextView
+            android:id="@+id/focus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-30dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="15dp"
+            android:fontFamily="@font/gil_bold"
+            android:textColor="#fff"
+            android:text="Focus :" />
+
+        <EditText
+            android:id="@+id/breakText"
+            android:layout_width="195dp"
+            android:layout_marginLeft="75dp"
+            android:layout_height="wrap_content"
+            android:hint="..."
+            android:paddingEnd="100dp" />
+
+        <TextView
+            android:id="@+id/break_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="-30dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/gil_bold"
+            android:text="Break :"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="0dp"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/saveBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:layout_marginLeft="50dp" />
+
+        <Button
+            android:id="@+id/cancelBtn"
+            android:text="Cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

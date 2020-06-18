@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Pomoboro</string>
+    <string name="action_settings">Settings</string>
+    <string name="textViewText">25:00</string>
+    <string name="channel_name">Notification</string>
+    <string name="channel_description">Notify Description</string>
+    <string name="start">Start</string>
+    <string name="startBreak">Start Break</string>
+    <string name="info">The Pomodoro Technique is a time management method developed by <b>Francesco Cirillo</b>.
+        The technique uses a timer to break down work into intervals, traditionally 25 minutes in length,
+        separated by short breaks. Each interval is known as a Pomodoro.
+    </string>
+    <string name="custom_toast_message">Focus! Get the work done!</string>
+</resources>
